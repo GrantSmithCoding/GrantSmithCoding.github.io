@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--
+        Add Your Name and Project Title Here
+    -->
+    <title>Environment Art</title>
+    <!-- resets browser defaults -->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <!-- custom styles -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <!-- custom fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Montserrat:wght@400;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="plugins/owl/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="plugins/owl/assets/owl.theme.default.min.css">
+
+</head>
+
+<body class="character environment">
+
+    <header>
+        <div class="description">
+            <h1>Environment Art</h1>
+        </div>
+        <!-- <div class="trans-gradient"></div> -->
+    </header>
+
+    <nav>
+        <div class="nav-select">
+            <h2><a href="../Smith-Grant-FinalProject/index.html">Home</a></h2>
+        </div>
+        <div class="nav-select">
+            <h2><a href="../Smith-Grant-FinalProject/art.html">Art/Game Design</a></h2>
+        </div>
+        <div class="nav-select">
+            <h2><a href="../Smith-Grant-FinalProject/web.html">Web Design</a></h2>
+        </div>
+    </nav>
+
+    <main>
+        <div class="overview-2">
+            <!-- <div class="overview-2"> -->
+            <h2>Overview</h2>
+            <div class="overview-2-text">
+                <p>This project involved us coming up with a new idea for a game environment from scratch, creating illustrations,
+                    modeling and eventually texturing and rendering. This was an iterative process where, at every
+                    step, we would try new things, get feedback, adjust and repeat.</p>
+                <p>This class had us using Photoshop, Adobe Substance Painter, Unreal Engine, and (most difficult of
+                    all) Maya. We had the opporunity to familiarize ourselves with these softwares and use them to
+                    achieve a vision of a environment we created at the beginning of the semester.</p>
+            </div>
+            <!-- </div> -->
+        </div>
+
+        
+        <div class="front-page-section-right">
+            <div class="front-page-section-text-right">
+                <h2>Greyboxing</h2>
+                <p>Greyboxing started in Unreal, where the basic shapes provided in the program allowed me to lay out proportions and how I wanted the scene to be arranged generally.</p>
+            </div>
+            <!-- <a href="#"><img class="beauty-shot" src="images/smithGrant_Beauty03.png" alt="beauty-shot"></a> -->
+            <div class="section-img">
+                <img src="../Smith-Grant-FinalProject/images/smithg_Assignment1B_01.png" alt="Drawing">
+            </div>
+        </div>
+
+        <div class="front-page-section-left">
+            <div>
+                <img src="../Smith-Grant-FinalProject/images/CottagelProgress1.PNG" alt="Drawing">
+            </div>
+            <div class="front-page-section-text-left">
+                <h2>Modeling</h2>
+                <p>After I knew the general shape of what I wanted, I went into the modeling software Maya to create the mesh that would take the place of the greyboxes</p>
+            </div>
+        </div>
+
+        <div class="front-page-section-right">
+            <div class="front-page-section-text-right">
+                <h2>Texturing</h2>
+                <p>After the models were created, I painted textures onto the surface to give it more color than just grey. In order to accomplish this, the model has to be cut apart and laid out flat so the texture program knows where to put the image files on the model.</p>
+            </div>
+            <!-- <a href="#"><img class="beauty-shot" src="images/smithGrant_Beauty03.png" alt="beauty-shot"></a> -->
+            <div class="section-img">
+                <img src="../Smith-Grant-FinalProject/images/CottageFinal9_ShaderfxShader2_BaseColor.png" alt="Drawing">
+                <img src="../Smith-Grant-FinalProject/images/smithg_Assignment4_01.png" alt="Drawing">
+
+            </div>
+        </div>
+
+        <div class="front-page-section-left">
+            <div>
+                <img src="../Smith-Grant-FinalProject/images/HighresScreenshot00017.png" alt="Drawing">
+            </div>
+            <div class="front-page-section-text-left">
+                <h2>Lighting/Wrapping Up</h2>
+                <p>I set up the rest of the textures and models in the scene. At this point, lighting and composition became the main focus.</p>
+            </div>
+        </div>
+
+        <div class="overview-section">
+            <div class="overview"><h2>FINAL RESULT</h2></div>
+        </div>
+
+
+            <div class="left-column">
+                <img src="../Smith-Grant-FinalProject/images/HighresScreenshot00049.png" alt="">
+            </div>
+
+    </main>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+	<script src="plugins/owl/owl.carousel.min.js"></script>
+    <script>
+		$(document).ready(function () {
+			$(".owl-carousel").owlCarousel({
+				loop: true,
+				margin: 0,
+				responsiveClass: true,
+				responsive: {
+					0: {
+						items: 1,
+						nav: true
+					},
+					600: {
+						items: 3,
+						nav: false
+					},
+					1000: {
+						items: 2,
+						nav: true,
+						loop: false
+					}
+				}
+			});
+		});
+	</script>
+</body>
+
+</html>

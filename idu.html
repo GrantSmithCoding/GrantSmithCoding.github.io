@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--
+        Add Your Name and Project Title Here
+    -->
+    <title>IdentifyU</title>
+    <!-- resets browser defaults -->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <!-- custom styles -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <!-- custom fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Montserrat:wght@400;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="plugins/owl/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="plugins/owl/assets/owl.theme.default.min.css">
+
+</head>
+
+<body class="character idu">
+
+    <header>
+        <div class="description">
+            <h1>Identify U</h1>
+        </div>
+        <!-- <div class="trans-gradient"></div> -->
+    </header>
+
+    <nav>
+        <div class="nav-select">
+            <h2><a href="../Smith-Grant-FinalProject/index.html">Home</a></h2>
+        </div>
+        <div class="nav-select">
+            <h2><a href="../Smith-Grant-FinalProject/art.html">Art/Game Design</a></h2>
+        </div>
+        <div class="nav-select">
+            <h2><a href="../Smith-Grant-FinalProject/web.html">Web Design</a></h2>
+        </div>
+    </nav>
+
+    <main>
+        <div class="overview-2">
+            <!-- <div class="overview-2"> -->
+            <h2>Overview</h2>
+            <div class="overview-2-text">
+                <p>This was the project that we did for the Informatics Capstone for the Informtics major at IU. This project was a part of earning the Informatics degree at IU.</p>
+                <!-- <p>This class had us using Photoshop, Adobe Substance Painter, Unreal Engine, and (most difficult of
+                    all) Maya. We had the opporunity to familiarize ourselves with these softwares and use them to
+                    achieve a vision of a environment we created at the beginning of the semester.</p> -->
+            </div>
+            <!-- </div> -->
+        </div>
+
+        
+        <div class="front-page-section-right">
+            <div class="front-page-section-text-right">
+                <h2>Concept</h2>
+                <p>Our concept is Identify U! It is a platform where underrepresented groups can connect and network!</p>
+            </div>
+            <!-- <a href="#"><img class="beauty-shot" src="images/smithGrant_Beauty03.png" alt="beauty-shot"></a> -->
+            <div class="section-img">
+                <p>Features:</p>
+                <ul>
+                    <li>Create posts</li>
+                    <li>Add comments to posts</li>
+                    <li>See events on a calander</li>
+                    <li>See events on the map</li>
+                    <li>Change languages</li>
+                    <li>Login with IU login</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="front-page-section-left">
+            <div class="four-by-four">
+                <div class="four-row">
+                    <img src="../Smith-Grant-FinalProject/images/Wireframe1.jpg" alt="Drawing">
+                    <img src="../Smith-Grant-FinalProject/images/Wireframe2.jpg" alt="Drawing">
+                </div>
+                <div class="four-row"> 
+                    <img src="../Smith-Grant-FinalProject/images/Wireframe3.jpg" alt="Drawing">
+                    <img src="../Smith-Grant-FinalProject/images/Wireframe4.jpg" alt="Drawing">
+                </div>
+            </div>
+            <div class="front-page-section-text-left">
+                <h2>Wireframes</h2>
+                <p>We used Figma to create wireframes that would help us develop the flow of the site and so we know what we are doing going in.</p>
+            </div>
+        </div>
+
+        <div class="overview-section">
+            <div class="overview"><h2>FINAL RESULT</h2></div>
+        </div>
+
+
+            <div class="left-column">
+                <img src="../Smith-Grant-FinalProject/images/FinalSite1.jpg" alt="">
+                <img src="../Smith-Grant-FinalProject/images/FinalSite2.jpg" alt="">
+                <img src="../Smith-Grant-FinalProject/images/FinalSite3.jpg" alt="">
+            </div>
+
+    </main>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+	<script src="plugins/owl/owl.carousel.min.js"></script>
+    <script>
+		$(document).ready(function () {
+			$(".owl-carousel").owlCarousel({
+				loop: true,
+				margin: 0,
+				responsiveClass: true,
+				responsive: {
+					0: {
+						items: 1,
+						nav: true
+					},
+					600: {
+						items: 3,
+						nav: false
+					},
+					1000: {
+						items: 2,
+						nav: true,
+						loop: false
+					}
+				}
+			});
+		});
+	</script>
+</body>
+
+</html>
